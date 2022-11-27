@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etch-a-sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="icons-container">
+        <label for="color" name="color">choose color</label>
+        <div class="cp-wrapper"><input type="color" name="color" id="color" value="#ffcad4"></div>
+        <button class="random-palet" id="palet-one">random palet 1</button>
+        <button class="random-palet" id="palet-two">random palet 2</button>
+        <button id="eraser">eraser</button>
+        <button id="clear">clear</button>
+    </div>
+
+    <div id="sketch-container">
+        <header>magic etch a sketch screen</header>
+        <div id="sketch">
+        </div>
+        <div class="skbtn one"></div>
+        <div class="skbtn two"></div>
+        <div id="range-container">
+            <span>0</span><input type="range" name="range" id="range" min="0" step="1" max="100" value="20"><span
+                id="range-num">20</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
