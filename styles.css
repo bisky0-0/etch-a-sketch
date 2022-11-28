@@ -30,15 +30,15 @@ label {
 
 .cp-wrapper {
     overflow: hidden;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 #color {
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
     padding: 0;
     margin: -12px;
     border: none;
