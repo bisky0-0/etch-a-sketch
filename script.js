@@ -33,7 +33,7 @@ let paletOne = document.getElementById("palet-one");
 let paletTwo = document.getElementById("palet-two");
 let eraser = document.getElementById("eraser");
 let clear = document.getElementById("clear");
-let paletOneColors = ["#a9def9", "#e4c1f9", "#d0f4de", "#fcf6bd", "#ff99c8", "#0077b6", "#b5e48c", "#7b2cbf", "#ffb3c6"];
+let paletOneColors = ["#a9def9", "#e4c1f9", "#d0f4de", "#fcf6bd", "#ff99c8", "#0077b6", "#b5e48c", "#ffb3c6"];
 let paletTwoColors = ["#fe6d73", "#000000", "#ffcb77", "#17c3b2", "#227c9d", "#9b5de5", "#ff9770", "#00bbf9", "#80ed99"];
 
 //coloring with color input value
