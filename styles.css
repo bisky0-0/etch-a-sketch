@@ -198,9 +198,7 @@ respoinsive styling
     #icons-container {
         width: 100%;
         margin-top: 70px;
-        display: flex;
         flex-flow: row wrap;
-        align-items: center;
         justify-content: space-around;
         margin-right: 0;
         padding: 10px 20px 10px 20px;
