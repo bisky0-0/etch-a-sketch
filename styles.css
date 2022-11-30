@@ -14,12 +14,19 @@ body {
 
 #icons-container {
     width: 300px;
-    margin-top: 240px;
+    margin-top: 200px;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
     margin-right: 200px;
+}
+.coloring{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
 label {
@@ -33,7 +40,6 @@ label {
     width: 80px;
     height: 80px;
     border-radius: 100%;
-    margin-bottom: 80px;
 }
 
 #color {
@@ -51,7 +57,7 @@ label {
     font-size: 1.1rem;
     color: #fff;
     background-color: #669bbc;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -163,7 +169,7 @@ input[type="range"] {
     width: 600px;
     accent-color: #fff3b0;
     position: relative;
-    cursor: grabbing;
+    cursor: grab;
 }
 
 input[type="range"]::before {
@@ -175,3 +181,43 @@ input[type="range"]::before {
     bottom: 20px;
 }
 
+/*
+respoinsive styling
+*/
+
+@media (max-width: 1200px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+        justify-content: center;
+        background-color: #2b2d42;
+    }
+
+    #icons-container {
+        width: 100%;
+        margin-top: 200px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 0;
+        padding: 10px 20px 10px 20px;
+        margin-bottom: 20px;
+    }
+    .coloring{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #icons-container>button {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    #icons-container>#eraser, #icons-container>#clear{
+        font-size: 1.2rem;
+    }
+    
+}
