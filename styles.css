@@ -197,7 +197,7 @@ respoinsive styling
 
     #icons-container {
         width: 100%;
-        margin-top: 200px;
+        margin-top: 70px;
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -228,9 +228,15 @@ respoinsive styling
         border-radius: 30px;
     }
 
+    #sketch-container > header{
+        font-size: 1.3rem;
+        margin-top: 5px;
+    }
+
+
     #sketch {
         height: 80%;
-        margin: 5px 35px 10px 35px;
+        margin: 5px 25px 10px 25px;
         border-radius: 20px;
         overflow: hidden;
         display: flex;
@@ -240,13 +246,17 @@ respoinsive styling
     }
 
     .skbtn {
-        width: 50px;
-        height: 50px;
+        width: 37px;
+        height: 37px;
         box-shadow: rgba(0, 0, 0, 0.17) 0px -11.5px 12.5px 0px inset,
         rgba(0, 0, 0, 0.15) 0px -18px 15px 0px inset,
         rgba(0, 0, 0, 0.1) 0px -39.5px 20px 0px inset, rgba(0, 0, 0, 0.06) 0px 1px 0.5px,
         rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
         rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px;
+    }
+
+    #range-container{
+        margin-top: 70px;
     }
     
 }
