@@ -166,7 +166,7 @@ label {
 }
 
 input[type="range"] {
-    width: 600px;
+    width: 100%;
     accent-color: #fff3b0;
     position: relative;
     cursor: grab;
