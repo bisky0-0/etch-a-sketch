@@ -68,6 +68,8 @@ label {
 #icons-container>button:hover,
 #icons-container>button:focus {
     background-color: #2488c6;
+    box-shadow: 1px 1px 6px #fff;
+    border: 1px solid #fdf;
 }
 
 #icons-container>#eraser {
